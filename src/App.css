@@ -1,8 +1,4 @@
-.skill .header-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .massiveImage {
   height: 100vh;
@@ -11,7 +7,7 @@
   background-position: center;
 }
 
-
+/* PARALLAX HEADER */
 
 body {
   padding: 0;
@@ -36,7 +32,7 @@ body {
   background-size: auto;
   background-repeat: no-repeat;
   width: 100%;
-  height: 800px;
+  height: 600px;
   position: fixed;
   z-index: -1;
 }
@@ -98,4 +94,40 @@ p {
   .layer-3 {
     background-position: 35% bottom;
   }
+}
+
+
+/* PARALLAX SECTION */
+a {
+  color: #555;
+  font-weight: 400;
+}
+
+.pSection {
+  position: relative;
+  padding-top: 200px;
+  padding-bottom: 300px;
+}
+
+.container {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1070px;
+  position: relative;
+  z-index: 1;
+}
+
+.pContent {
+  width: 65%;
+  background-color: rgba(78,152,21,0.8);
+  color: white;
+  padding: 40px 60px;
+}
+
+.pImage {
+  width: 70%;
+  position: absolute;
+  top: 20%;
+  right: 0;
+  max-height: 900px;
 }
