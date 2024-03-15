@@ -11,6 +11,8 @@ const ParallaxHeader = () => {
         start: "top top",
         end: "bottom top",
         scrub: true,
+        pin: true, // pin the element while the ScrollTrigger is active
+    pinSpacing: false, // don't add or remove spacing when pinning/unpinning
         // markers: true,
       },
     });
