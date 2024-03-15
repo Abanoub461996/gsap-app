@@ -1,9 +1,9 @@
 import HorizontalScroll from "./elements/scrollTrigger/HorizontalScroll";
 import ParallaxHeader from "./elements/scrollTrigger/ParallaxHeader";
 
-import "./App.css";
 import ParallaxSection from "./elements/scrollTrigger/ParallaxSection";
 
+import "./App.css";
 
 function App() {
   return (
